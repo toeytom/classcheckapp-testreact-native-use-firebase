@@ -1,0 +1,27 @@
+{
+	"name": "ClassCheck",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"firebase": "^5.3.1",
+		"native-base": "^2.7.2",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.48.4",
+		"react-native-barcode-scanner-google": "^1.4.2",
+		"react-native-modal": "^6.5.0",
+		"react-navigation": "^2.11.2"
+	},
+	"devDependencies": {
+		"babel-jest": "23.4.2",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "23.5.0",
+		"react-test-renderer": "16.0.0-alpha.12"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
